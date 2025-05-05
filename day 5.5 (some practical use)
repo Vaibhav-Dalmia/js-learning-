@@ -1,0 +1,45 @@
+## 📅 Day 5.5 – Task Manager Mini Project
+
+### 💡 Project Idea:
+- Ask user to enter 3 tasks
+- Option to add a 4th task
+- Option to remove the last task
+- Option to remove any specific task
+- Display the final list
+
+### 🧑‍💻 My Code:
+```js
+let a = prompt("enter task one");
+let b = prompt("enter task two");
+let c = prompt("enter task three");
+let result = [a, b, c];
+
+console.log("task one is", a);
+console.log("task two is", b);
+console.log("task three is", c);
+
+let d = prompt("do you want to add one more task? (y/n)");
+if (d == 'y') {
+    let task4 = prompt("enter task four");
+    result.push(task4);
+} else {
+    alert("ok");
+}
+
+let e = prompt("do you want to remove last task? (y/n)");
+if (e == 'y') {
+    result.pop();
+}
+
+let f = prompt("do you want to remove any specific task? (y/n)");
+if (f == 'y') {
+    let rt = prompt("enter which task you want to remove");
+    let index = result.indexOf(rt);
+    if (index !== -1) {
+        result.splice(index, 1);
+    } else {
+        alert("Task not found");
+    }
+}
+
+console.log(result);
