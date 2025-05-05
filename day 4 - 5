@@ -1,0 +1,10 @@
+## ✅ Day 4 – Loops & Functions
+- Practiced `for` and `while` loops
+- Built an age checker and a sum calculator using user input
+- Wrote basic functions for reusability
+
+## ✅ Day 5 – Strings & Arrays
+- Learned string methods: `.length`, `.toUpperCase()`, `.includes()`, `.slice()`, `.replace()`
+- Used template literals for cleaner output
+- Practiced arrays: `.push()`, `.pop()`, looping through items
+- Built a small string-based greeting program and multiplication table generator
