@@ -1,0 +1,29 @@
+# 📅 Day 6 – Array Method Practice
+
+## ✅ What I Learned:
+- `.map()` – used to return  values of input 
+- `.filter()` – used to extract values based on a condition (e.g., divisible by 10)
+- `.reduce()` – used to multiply or sum all values in an array
+- Used `prompt()` inside loops for interactive input
+- Improved understanding of `while`, `for...of`, and arrow functions
+
+## 💻 Small Projects:
+- Squared user-input numbers using `.map()`
+- Filtered numbers divisible by 10
+- Multiplied all array values using `.reduce()`
+
+## 🧠 Sample Code:
+```js
+let ar = []
+while (true){
+    a = prompt("enter number you want square of (type 0 as its enough")
+    a = Number.parseInt(a)
+    ar.push(a)
+    if (a==0)
+        break
+}
+let ar2 = ar.map((n)=>{
+    return n*n
+})
+ar2.pop()
+console.log(ar2)
