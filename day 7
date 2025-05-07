@@ -1,0 +1,16 @@
+# 📅 Day 7 – Transitioning from JavaScript to HTML
+
+## ✅ What I Did Today:
+- Paused JavaScript after 6 days of consistent learning
+- Began learning **HTML basics** to understand how web pages are structured
+- Started watching CodeWithHarry's HTML series
+
+## 🧠 What I’m Covering in HTML:
+- Basic structure: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`
+- Common tags: `<h1>`, `<p>`, `<a>`, `<img>`, `<button>`, etc.
+- How content is displayed in browsers
+
+## 🎯 Why the Shift:
+- To understand how JavaScript connects to the web through the DOM
+- Preparing to build full interactive projects (HTML + CSS + JS)
+  
